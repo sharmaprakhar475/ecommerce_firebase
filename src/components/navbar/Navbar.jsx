@@ -201,6 +201,11 @@ function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={"/"} className="flex">
                   <div className="flex ">
+                    <img
+                      className="inline-block w-10 h-10 rounded-full"
+                      src="/public/logo.png"
+                      alt="Electronics Shop"
+                    />
                     <h1
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
@@ -272,15 +277,15 @@ function Navbar() {
                     </span>
                   </a>
                 </div> */}
-                <div className="hidden lg:ml-8 lg:flex">
+                {/* <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="https://picsum.photos/200/300"
-                      alt="Dan_Abromov"
+                      src="/public/logo.png"
+                      alt="Electronics Shop"
                     />
                   </a>
-                </div>
+                </div> */}
 
                 {/* Search */}
                 <div className="flex lg:ml-6">
