@@ -203,7 +203,7 @@ function Navbar() {
                   <div className="flex ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="/public/logo.png"
+                      src="public/logo.png"
                       alt="Electronics Shop"
                     />
                     <h1
@@ -281,7 +281,7 @@ function Navbar() {
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="/public/logo.png"
+                      src="public/logo.png"
                       alt="Electronics Shop"
                     />
                   </a>

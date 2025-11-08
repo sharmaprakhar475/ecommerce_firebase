@@ -56,7 +56,7 @@ function ProductCard() {
                 <div
                   key={index}
                   onClick={() => {
-                    window.location.href = `/productinfo/${id}`;
+                    window.location.href = `productinfo/${id}`;
                   }}
                   className="p-4 md:w-1/4  drop-shadow-lg "
                 >
