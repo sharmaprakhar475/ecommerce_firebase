@@ -1,15 +1,10 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react"; // if using React
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  plugins: [react()],
+  base: "/", // VERY IMPORTANT for Vercel
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          react: ["react", "react-dom"],
-        },
-      },
-    },
+    outDir: "dist", // default output folder
   },
 });
